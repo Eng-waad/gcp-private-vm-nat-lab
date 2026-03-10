@@ -50,9 +50,7 @@ A custom VPC network was created with the following configuration:
 - Network Name:eway** for int- Subnet Name:VM Access with IA- CIDR Range: VM Access with I
 This network isolates internal resources and prevents direct internet exposure.
 
-Screenshot:
 
-![VPC Network](images/vpc-network.png)
 
 ---
 
@@ -65,9 +63,6 @@ Configuration:
 - Rule Name:AP, Private Google Acces- Source Range:M Access with IAP, - Protocol:te VM A- Port:rivate
 This ensures that SSH access is allowede Google Access and Cland not from the public internet.
 
-Screenshot:
-
-![Firewall Rule](images/firewall-rule.png)
 
 ---
 
@@ -79,9 +74,7 @@ A Compute Engine VM was deployed with the following configuration:
 - Network:th IAP, Privat- External IP:VM Access 
 This ensures the VM is with IAP, Private Googland cannot be accessed directly from the internet.
 
-Screenshot:
 
-![VM Instance](images/vm-instance.png)
 
 ---
 
@@ -99,9 +92,6 @@ IAP allows secure SSH access*Google Compute Engine VM without a public IP
 
 Private Google Access was enabled on the subnet to allow private instances to reachmpute Engine VM without a publwithout requiring a public IP address.
 
-Screenshot:
-
-![Private Google Access](images/private-google-access.png)
 
 ---
 
@@ -130,9 +120,6 @@ A Cloud NAT Gateway was created to allow the private VM to access the public int
 Configuration:
 
 - NAT Gateway:nstrates how t- Cloud Router:M Access with - Network:ate VM Access 
-Screenshot:
-
-![Cloud NAT](images/cloud-nat.png)
 
 ---
 
@@ -142,9 +129,7 @@ Cloud NAT logging was enabled to monitor network connections and translation eve
 
 Logs can be viewed inaccess Google APIs and the internet
 
-Screenshot:
 
-![NAT Logs](images/nat-logs.png)
 
 ---
 
