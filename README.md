@@ -174,4 +174,4 @@ This architecture improves security by:
 
 This lab demonstrates aLogging** for monitoring connections
 
-Awhere compute instances remain private while still accessing necessary services using controlled mechanisms like **Private Google Access ana Cloud NAT**.
+Awhere compute instances remain private while still accessing necessary services using controlled mechanisms like **Private Google Access and Cloud NAT**.
